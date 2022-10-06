@@ -7,53 +7,54 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-item>
-    <ion-label><h1>Valor 1</h1></ion-label>
-  </ion-item>
-  <ion-item>
-    <ion-input placeholder="Insira o valor"></ion-input>
-    <ion-input></ion-input>
-  </ion-item>
-
-  <ion-item>
-    <ion-label><h1>Valor 2</h1></ion-label>
-  </ion-item>
-  <ion-item>
-    <ion-input placeholder="Insira o valor"></ion-input>
-    <ion-input></ion-input>
-  </ion-item>
-
-  <ion-grid>
-    <ion-row>
-      <ion-col>
-        <ion-button expand="block">+</ion-button>
-      </ion-col>
-      <ion-col>
-        <ion-button expand="block">-</ion-button>
-      </ion-col>
-      <ion-col>
-        <ion-button expand="block">*</ion-button>
-      </ion-col>
-      <ion-col>
-        <ion-button expand="block">/</ion-button>
-      </ion-col>
-    </ion-row>
-
-    <ion-row>
-      <ion-col>
-        <ion-button expand="block">MAIOR</ion-button>
-      </ion-col>
-      <ion-col>
-        <ion-button expand="block">MENOR</ion-button>
-      </ion-col>
-    </ion-row>
-
+  <ion-card>
     <ion-item>
-      <ion-label><h1>Resultado</h1></ion-label>
+      <ion-label><h1>Valor 1</h1></ion-label>
     </ion-item>
     <ion-item>
-      <ion-label><h1>Operação</h1></ion-label>
+      <ion-input placeholder="Insira o valor"></ion-input>
+      <ion-input></ion-input>
     </ion-item>
 
-</ion-grid>
+    <ion-item>
+      <ion-label><h1>Valor 2</h1></ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-input placeholder="Insira o valor"></ion-input>
+      <ion-input></ion-input>
+    </ion-item>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-button expand="block">+</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button expand="block">-</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button expand="block">*</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button expand="block">/</ion-button>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-button expand="block">MAIOR</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button expand="block">MENOR</ion-button>
+        </ion-col>
+      </ion-row>
+
+      <ion-item>
+        <ion-label><h1>Resultado</h1></ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label><h1>Operação</h1></ion-label>
+      </ion-item>
+    </ion-grid>
+  </ion-card>
 </ion-content>

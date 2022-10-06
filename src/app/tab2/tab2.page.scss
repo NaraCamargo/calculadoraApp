@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans&display=swap');
+
+h1{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 23px;
+}
+
+
+ion-content{
+ion-button{
+  color:  #000000; //color letter button
+  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+
+  --background: #e4e4e4; //color button
+
+  font-size: medium;
+
+}
+
+.number{
+
+  --background: #ffffff; //class números
+}
+
+--background: #f5f4f4; //fundo content
+
+
+ion-card{
+  --background: #f5f4f4;
+}
+}
+
+
+ion-toolbar{
+  --background: #f5f4f4; //fundo header
+
+  ion-title{
+  h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+  }
+  }
+
+}
+
+
+ion-item{
+  --background: #f5f4f4;
+}
+
